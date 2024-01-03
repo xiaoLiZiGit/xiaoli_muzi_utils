@@ -1,0 +1,40 @@
+{
+  "name": "@xiaoli_muzi/utils",
+  "version": "0.0.1",
+  "type": "module",
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "main": "./dist/utils.umd.cjs",
+  "module": "./dist/utils.js",
+  "types": "./index.d.ts",
+  "exports": {
+    "types": "./index.d.ts",
+    "import": "./dist/utils.js",
+    "require": "./dist/utils.umd.cjs"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10",
+    "vitepress": "1.0.0-rc.34"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "registry": ""
+}
