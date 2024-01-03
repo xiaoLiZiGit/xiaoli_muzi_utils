@@ -36,5 +36,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "registry": ""
+  "registry": "https://github.com/xiaoLiZiGit/xiaoli_muzi_utils.git"
 }
